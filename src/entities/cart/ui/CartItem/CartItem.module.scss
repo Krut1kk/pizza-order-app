@@ -1,0 +1,96 @@
+.CartItem {
+  padding: 0px 20px;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  user-select: none;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.titleContainer {
+  cursor: pointer;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 15px;
+  overflow: hidden;
+  text-wrap: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 600;
+  color: #db4444;
+}
+
+.subtotal {
+  font-size: 18px;
+  font-weight: 600;
+  color: #db4444;
+}
+
+.quantity {
+  font-size: 18px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  font-weight: 600;
+}
+
+.imageContainer {
+  img {
+    height: 66.73px;
+    border-radius: 8px;
+  }
+}
+
+.rightSideContent {
+  gap: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.deleteIcon {
+  cursor: pointer;
+  &:hover {
+    path {
+      fill: #db4444;
+    }
+  }
+}
+
+.icon {
+  cursor: pointer;
+  user-select: none;
+}
+
+@media (max-width: 1050px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .subtotal {
+    font-size: 14px;
+    font-weight: 600;
+    color: #db4444;
+  }
+}

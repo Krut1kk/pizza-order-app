@@ -1,0 +1,15 @@
+.Form {
+  padding: 24px;
+  border: 1px solid #c0c0c0;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  height: 450px;
+  width: 100%;
+}
+
+.button {
+  margin-top: auto;
+}

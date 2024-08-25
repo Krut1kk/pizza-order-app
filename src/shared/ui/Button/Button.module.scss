@@ -1,0 +1,48 @@
+.Button {
+  width: 100%;
+  cursor: pointer;
+  padding: 0px 48px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  gap: 8px;
+
+  &:disabled {
+    opacity: 0.6;
+  }
+}
+
+.Icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roseBG {
+  background-color: #db4444;
+}
+.greenBG {
+  background-color: #00ff66;
+}
+
+.blackBG {
+  background-color: #000000;
+  width: 100%;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.small {
+  height: 40px;
+}
+.medium {
+  height: 48px;
+}
+.large {
+  height: 56px;
+}

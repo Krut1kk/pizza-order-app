@@ -1,0 +1,16 @@
+.AddPeopleForPriceSliceItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.deleteIcon {
+  cursor: pointer;
+  font-size: 20px;
+}

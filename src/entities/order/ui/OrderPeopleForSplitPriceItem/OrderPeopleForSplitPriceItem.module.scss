@@ -1,0 +1,12 @@
+.OrderPeopleForSplitPriceItem {
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.name {
+  width: 150px;
+  overflow: hidden;
+}

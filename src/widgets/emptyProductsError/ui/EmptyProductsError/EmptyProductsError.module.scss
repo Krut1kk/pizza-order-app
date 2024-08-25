@@ -1,0 +1,18 @@
+.EmptyProductsError {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.description {
+  max-width: 804px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
